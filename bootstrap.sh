@@ -15,6 +15,7 @@ echo add erlang-solutions
 wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb && sudo dpkg -i erlang-solutions_1.0_all.deb
 apt-get -qq update
 install Erlang esl-erlang
+install Erlang-ssl erlang-ssl
 install Elixir elixir
 install Inotify inotify-tools
 install Git git
@@ -29,8 +30,8 @@ yes | mix archive.install https://github.com/phoenixframework/archives/raw/maste
 
 echo nvm
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
-nvm install node
-npm install -g yarn
+# nvm install node
+# npm install -g yarn
 
 
 
