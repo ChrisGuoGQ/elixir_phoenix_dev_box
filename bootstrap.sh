@@ -22,12 +22,16 @@ install Erlang-ssl erlang-ssl
 install Erlang-dev erlang-dev
 install Erlang-parsetools erlang-parsetools
 install Elixir elixir
-install Inotify inotify-tools
+# install Inotify inotify-tools
 install Git git
-install Redis redis-server
+# install Redis redis-server
 install Build-essential build-essential
 
-install PostgreSQL postgresql postgresql-contrib libpq-dev
+# sudo apt-get install erlang-ssl erlang-dev erlang-parsetools inotify-tools redis-server postgresql postgresql-contrib libpq-dev
+# install PostgreSQL postgresql postgresql-contrib libpq-dev
+#sudo su - postgres
+#psql
+#\password postgres
 # sudo -u postgres createuser --pwprompt deploy
 
 # echo mix
